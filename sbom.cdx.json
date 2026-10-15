@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:40ad9140-c837-563e-8f7a-08a30b2aacc0",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-11T05:21:12Z",
+    "component": {
+      "type": "application",
+      "name": "POS",
+      "version": "da444eccda18",
+      "bom-ref": "pkg:generic/anticloud/POS@da444eccda18",
+      "purl": "pkg:generic/anticloud/POS@da444eccda18",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "da444eccda186582c7d5178d664bd7a87e568ad6"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-pos.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
